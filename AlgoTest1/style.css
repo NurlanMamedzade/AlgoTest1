@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/weather.webp);
+    background-size: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.title,
+.menu {
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 15px;
+}
+
+.text {
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
